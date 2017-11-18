@@ -4,12 +4,12 @@ const
 	chai = require('chai'),
 	assert = chai.assert,
 
-	untitled = require('../')
+	std = require('../')
 
-describe('#untitled', function() {
+describe('#std', function() {
 
 	it('should return "Hello World!"', function() {
-		assert.strictEqual(untitled(), 'Hello World!', 'Did not return "Hello World!"')
+		assert.strictEqual(std(), 'Hello World!', 'Did not return "Hello World!"')
 	})
 
 })
