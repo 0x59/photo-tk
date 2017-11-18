@@ -5,5 +5,5 @@
  * @return {string}
  */
 module.exports = function() {
-	return 'Hello World'
+	return 'Hello World!'
 }
